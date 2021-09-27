@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color : #eee;
+    font-family : 'Roboto';      
+    margin : 0; 
+    line-height: 1.5;     
+}
+
+#header {
+    width: 100%;
+    position : fixed;        
+}
+
+#first-nav-bar { 
+    background-color : #eee;       
+    display : flex;    
+    flex-direction: row;
+    align-items: center;
+    justify-content : space-between;    
+    height : 21px;    
+    padding-top: 15px;  
+    padding-bottom: 15px;     
+}
+
+#left-elements ul {
+    display : flex;
+    flex-direction : row;    
+    list-style : none;    
+    justify-content: space-between;     
+    padding-left: 50px;        
+}
+
+#left-elements li {
+    margin : 0 25px;
+}
+
+#left-elements a {    
+    font-size: 16px;    
+    font-weight: 900;
+    color : black;
+    text-decoration: none;  
+}  
+
+#logo {    
+    background-color: black;
+    padding : 0 50px; 
+    margin-left : 100px; 
+}
+
+#logo a {
+    font-family: 'Cinzel';
+    font-size : 30px;
+    color : white;    
+    text-decoration: none;      
+}
+
+#right-elements ul {
+    display : flex;
+    flex-direction : row;    
+    list-style : none;    
+    justify-content : space-between;     
+    padding-right : 50px;
+}
+
+#right-elements li {
+    margin : 0 25px;    
+}
+
+#right-elements a {
+    font-size: 16px;    
+    font-weight: 900;
+    color : black;
+    text-decoration: none;
+}
+
+#second-nav-bar {   
+    display: flex;
+    flex-direction: row;
+    background-color: black;             
+    height : 40px;    
+    align-items: center;   
+}
+
+#elements ul {
+    display : flex;
+    flex-direction : row;    
+    list-style : none;   
+    justify-content: space-between;  
+    margin-left: -10px;         
+}
+
+#elements li {    
+    margin: 0 50px;      
+}
+
+#elements a {
+    font-size : 16px;
+    font-weight : 500;
+    color : white;
+    text-decoration: none;
+}
+
+#contact_us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    padding-top : 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+}
+
+#heading {
+    font-family: 'Allerta Stencil';
+    font-size: 22px;
+    border-bottom: 2px solid black;  
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    width : 420px;
+    margin-left: 472px;   
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input {
+    padding : 5px;
+    margin : 5px;
+    font-family: 'Roboto';
+    color: black;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;    
+}
+
+#address {
+    margin : 8px 0;
+}
+
+#footer {
+    background-color:#282828;
+    color:#eeeeee;
+    display: flex;
+    flex-direction: row;
+    align-items : flex-start;
+    justify-content: space-between;
+    padding : 40px;       
+}
+
+#footer h3 {
+    font-size: 24px;               
+}
+
+#footer ul{
+    text-align: left;
+    list-style: none;
+}
+
+#footer li {
+    line-height: 1.9;
+}
+
+#footer a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+#products {
+    padding-left: 90px;
+}
+
+#products h3 {
+    padding-left: 40px;
+}
+
+#useful_links {
+    margin-left: 160px;
+}
+
+#useful_links h3 {
+    padding-left : 40px;
+}
+
+#stay_in_touch {
+    padding-right : 120px;    
+}
+
+#stay_in_touch h3 {
+    padding-left: 70px;    
+}
+
+#stay_in_touch ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 34px;
+}
+
+#stay_in_touch li {
+    margin : 0 15px;
+}
+
+#copyright {
+    font-size: 20px;
+    padding-top : 140px;
+}
